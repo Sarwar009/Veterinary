@@ -1,0 +1,48 @@
+#about {
+  padding-top: 70px;
+  margin-bottom: 70px;
+}
+#about .about-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#about .about-us .about-img {
+  background: #eee;
+  box-shadow: 0 8px 8px -4px rgba(91, 11, 247, 0.48);
+  height: 235px;
+}
+#about .about-us .about-details {
+  padding: 2rem 0.5rem;
+  text-align: center;
+  color: #000;
+  justify-self: center;
+}
+#about .about-us .about-details h5 {
+  margin-top: 1rem;
+}
+#about .about-us .about_social a {
+  color: #fac73c;
+  padding-bottom: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding-top: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: 1s all ease;
+}
+#about .about-us .about_social a:hover {
+  background-color: #4bd6ff;
+}
+
+@media only screen and (max-width: 1010px) {
+  #about .about-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 670px) {
+  #about .about-us {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=About.css.map */

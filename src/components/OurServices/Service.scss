@@ -1,0 +1,34 @@
+#service {
+    padding-top: 70px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+
+    .service_details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .service_card {
+            padding: 30px;
+            justify-self: center;
+
+            p {
+                color: #000;
+                margin-top: 25px;
+            }
+
+            img {
+                box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+            margin-top: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #service {
+        .service_details {
+            grid-template-columns: 1fr;
+        }
+    }
+}

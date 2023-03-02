@@ -1,0 +1,43 @@
+#hero {
+  overflow: hidden;
+  padding-top: 40px;
+}
+#hero .contact_button {
+  display: flex;
+}
+#hero .contact_button .btn {
+  width: 146px;
+}
+#hero .contact_button .btn-service {
+  margin-top: 0px;
+  margin-left: 10px;
+}
+#hero .row:nth-child(2) {
+  margin-left: 0.8rem;
+}
+#hero .hero_img {
+  margin: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  #hero .contact_button {
+    display: flex;
+    flex-direction: column;
+  }
+  #hero .contact_button .btn {
+    width: 146px;
+  }
+  #hero .contact_button .btn-service {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  #hero .row:nth-child(2) {
+    margin-left: 0.8rem;
+  }
+  #hero .hero_img {
+    margin: 0px;
+  }
+  #hero button {
+    display: inline-block;
+  }
+}/*# sourceMappingURL=Hero.css.map */

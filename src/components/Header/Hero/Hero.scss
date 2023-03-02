@@ -1,0 +1,58 @@
+
+#hero {
+    overflow: hidden;
+    padding-top: 40px;
+
+    .contact_button {
+        display: flex;
+
+        .btn {
+            width: 146px;
+        }
+
+        .btn-service{
+            margin-top: 0px;
+            margin-left: 10px;
+        }
+    }
+    
+    
+    .row:nth-child(2) {
+        margin-left: 0.8rem;
+    }
+
+    .hero_img {
+        margin: 25px;
+    }
+}
+
+// MEDIA QUERY
+@media only screen and (max-width: 600px) {
+    #hero {
+        .contact_button {
+            display: flex;
+            flex-direction: column;
+
+            .btn {
+                width: 146px;
+            }
+
+            .btn-service{
+                margin-top: 10px;
+                margin-left: 0px;
+            }
+        }
+        
+        .row:nth-child(2) {
+            margin-left: 0.8rem;
+        }
+    
+        .hero_img {
+            margin: 0px;
+        }
+
+        button {
+            display: inline-block;
+        }
+    }
+}

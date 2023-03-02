@@ -1,0 +1,57 @@
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: 0.3s all ease;
+
+    &:hover {
+        color: rgb(0 31 249);
+    }
+}
+
+.navbar {
+    background-color: #b78600;
+    border-bottom: 1px solid rgb(241, 213, 86);
+}
+
+.opacity {
+    opacity: 0.7;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+    color: #fac73c;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+    width: 2rem;
+
+    &:hover {
+        transform: skew(20deg);
+        animation: shake 2s infinite;
+        animation-direction: alternate;
+
+        @keyframes shake {
+            0% {
+                transform: skewX(20deg);
+            }
+            100% {
+                transform: skewX(-20deg);
+            }
+        }
+    }
+}

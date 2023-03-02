@@ -1,0 +1,46 @@
+#recent {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding-top: 50px;
+
+    .title {
+        padding:20px;
+    }
+
+    .posts {
+        display: flex;
+        justify-content: space-around;
+
+        .post {
+            width: 300px;
+            margin: 30px;
+
+            p {
+                color: var(--color-primary);
+
+                &:nth-last-child(2){
+                    color: #000;
+                }
+            }
+
+            .btn {
+                transition: 0.7s all ease;
+                &:hover {
+                    background-color: #fac73c;
+                }
+            }
+        }
+    }
+}
+
+// MEDIA QUERY
+
+@media only screen and (max-width: 670px) {
+    #recent {
+        .posts {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+}

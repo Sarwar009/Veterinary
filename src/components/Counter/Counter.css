@@ -1,0 +1,44 @@
+#counter {
+  position: relative;
+  color: #fff;
+}
+#counter img {
+  position: absolute;
+  opacity: 0.5;
+  height: 638px;
+}
+#counter .counter-wrap {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  position: relative;
+}
+#counter .counter-wrap div {
+  background: transparent;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 15px;
+}
+#counter .counter-wrap span {
+  font-size: 50px;
+  font-weight: bold;
+}
+#counter .counter-wrap p {
+  font-size: 20px;
+  font-weight: bold;
+}
+#counter .counter-wrap h6 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  #counter img {
+    display: none;
+  }
+  #counter .counter-wrap {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=Counter.css.map */
