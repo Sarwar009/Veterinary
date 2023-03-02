@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Veterinary/static/css/main.55288c08.css",
-    "main.js": "/Veterinary/static/js/main.924ab956.js",
+    "main.css": "/Veterinary/static/css/main.2357a85d.css",
+    "main.js": "/Veterinary/static/js/main.4ca53600.js",
     "static/js/787.7a91c3fa.chunk.js": "/Veterinary/static/js/787.7a91c3fa.chunk.js",
     "static/media/images (4).jpg": "/Veterinary/static/media/images (4).4a373cbfa4d64a1a0591.jpg",
     "static/media/service1.png": "/Veterinary/static/media/service1.48d64ff96185f4a4736a.png",
     "static/media/heroImg.png": "/Veterinary/static/media/heroImg.4ed068fa4272bd3018aa.png",
     "static/media/images__3.png": "/Veterinary/static/media/images__3.b70cf36eaa45c7c9db10.png",
+    "static/media/transparent bg.png": "/Veterinary/static/media/transparent bg.32b83fa3f88f593851ed.png",
     "index.html": "/Veterinary/index.html",
-    "main.55288c08.css.map": "/Veterinary/static/css/main.55288c08.css.map",
-    "main.924ab956.js.map": "/Veterinary/static/js/main.924ab956.js.map",
+    "main.2357a85d.css.map": "/Veterinary/static/css/main.2357a85d.css.map",
+    "main.4ca53600.js.map": "/Veterinary/static/js/main.4ca53600.js.map",
     "787.7a91c3fa.chunk.js.map": "/Veterinary/static/js/787.7a91c3fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55288c08.css",
-    "static/js/main.924ab956.js"
+    "static/css/main.2357a85d.css",
+    "static/js/main.4ca53600.js"
   ]
 }
